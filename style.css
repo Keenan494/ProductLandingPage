@@ -1,0 +1,43 @@
+@import url('https://www.fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+:root {
+    /*Logo Colors*/
+    --logo-clr-vdg: #034018;
+    --logo-bg-clr: #02431f;
+    --logo-clr-dg: #347343;
+    --logo-clr-mdg: #76A679;
+    --logo-clr-lg: #B7D9AD;
+    --logo-clr-vlg: #D7F2C4;    
+    --logo-fg-clr: #ddfecc;
+    
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    
+}
+nav {
+    position: fixed;
+}
+li {
+    
+}
+.content {
+    max-height: 100vh;
+    background: #e7e7e7;
+}
+.box1 {
+    background: var(--logo-clr-vlg);
+    color: var(--logo-clr-vdg);
+    width: 50px;
+    height: 50px;
+    margin: 2%;
+    padding: 2% 5%;
+}
+.box2 {
+    background: var(--logo-bg-clr);
+    color: var(--logo-clr-mdg);
+    width: 50px;
+    height: 50px;
+    margin: 2%;
+    padding: 2% 5%;
+}
